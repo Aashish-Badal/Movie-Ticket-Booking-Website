@@ -2,6 +2,9 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import NowShowing from '../components/NowShowing'
+import Trailers from '../components/Trailers'
+import Footer from '../components/Footer'
+import CopyRight from '../components/CopyRight'
 
 const HomePage = () => {
   return (
@@ -11,6 +14,9 @@ const HomePage = () => {
         <Hero />
     </div>
     <NowShowing />
+    <Trailers />
+    <Footer />
+    <CopyRight />
     </>
   )
 }
