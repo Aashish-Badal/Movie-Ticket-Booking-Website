@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import NowShowing from '../components/NowShowing'
 import { dummyMovieData } from '../assets/assets'
+import Footer from '../components/Footer'
+import CopyRight from '../components/CopyRight'
 
 const Movies = () => {
     return (
@@ -26,6 +28,8 @@ const Movies = () => {
                 <div className='flex items-center justify-center'>
                 </div>
             </div>
+            <Footer />
+            <CopyRight />
         </div>
     )
 }
